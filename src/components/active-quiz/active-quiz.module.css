@@ -1,0 +1,21 @@
+.active_quiz {
+    margin: 0 auto;
+    padding: 0.8rem;
+    width: 80vw;
+    border-radius: 0.4rem;
+    background-color: white;
+    color: #282c34;
+}
+
+.title {
+    color: #20232a;
+    text-align: center;
+    padding: 0.3rem;
+    margin: 0;
+}
+
+.status {
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: bold;
+}

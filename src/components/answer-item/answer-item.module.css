@@ -1,0 +1,22 @@
+.answer_item {
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.9rem;
+    margin: 0.6rem;
+    box-shadow: 0 3px 8px 0 rgba(00, 00, 00, 0.3);
+    color: #282c34;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.answer_item:hover {
+    background-color: #61dafb;
+    transition: background-color 0.5s;
+}
+
+.answer_item.right {
+    background-color: rgba(161, 240, 69, .8);
+}
+
+.answer_item.wrong {
+    background-color: rgba(240, 87, 108, .8);
+}

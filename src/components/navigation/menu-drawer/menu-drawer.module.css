@@ -1,0 +1,36 @@
+.menuDrawer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 80%;
+    max-width: 300px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 90;
+    transform: translateX(0px);
+    transition: transform .22s ease-in;
+}
+
+.closed {
+    transform: translateX(-300px);
+}
+
+.menuDrawer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuDrawer ul li {
+    margin-bottom: 15px;
+}
+
+.menuDrawer ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    background: #fff;
+    position:relative;
+    padding: 0 20px 10px 20px;
+}
